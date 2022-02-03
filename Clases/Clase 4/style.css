@@ -1,0 +1,44 @@
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative
+   
+  }
+  
+  .servicio {
+    width: 14rem;
+    padding: 1rem;
+    text-align:center;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px 4px 11px 1px #00000049;
+    width: 10rem;
+    height: 15rem;
+  }
+  
+  .servicio img {
+    width: 135px;
+    height: 135px;
+    border: 2px;
+    border-color: white;
+    border-radius: 99%;
+  }
+  
+  .servicio .texto {
+    margin: 1rem 0 1rem;
+    text-align:left;
+    font-size: 1rem;
+    color:white
+    
+  }
+  .servicio .texto h5 {
+   
+    color:rgba(121, 119, 119, 0.445)
+    
+  }
+
+  .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
