@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    width: 60%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color:lightgrey
+    
+}
+.container{
+    padding: 1rem;
+    padding-right: 2rem;
+    background-color: white;
+}
+
+.detalle{
+    display: flex;
+    align-items: center;
+    width: wrap;
+    
+}
+
+.texto{
+    flex-grow: 2;
+    padding-left: 1rem;
+}
+
+.img-user{
+    width: 60px;
+    height: 60px;
+   
+   
+}
+
+.share-icon{
+    width: 15px;
+    height: 15px;
+    padding: 3pt;
+    align-content: space-between;
+    align-self: bottom;
+    margin-top: 1rem;
+    border: 1pt solid black;
+    border-radius: 99%;
+   
+
+}
+
+strong{
+    color: black;
+}
+p{
+    color: gray;
+}
