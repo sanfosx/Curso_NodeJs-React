@@ -1,0 +1,54 @@
+main{
+    display: flex;
+    justify-content: center; 
+}
+
+.precio1{
+    border: 1pt solid black;
+    width: 15rem;
+    height: 20rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.precio2{
+    border: 1pt solid black;
+    width: 15rem;
+    height: 20rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn{
+    width: 80%;
+    height: 15%;
+    align-self: bottom;
+    margin: 5pt;
+    color: white;
+}
+
+.b-free{
+    background-color: blueviolet;
+    
+}
+
+.b-starter{
+    background-color: cornflowerblue;
+    
+}
+
+
+.precio1 h2{
+    color: blueviolet;
+}
+p{
+    color: gray;
+}
+
+.tit1{
+    color: blueviolet;
+}
+
+.tit2{
+    color: cornflowerblue;
+}

@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 25rem;
+    align-content: center;
+    padding: 2rem;
+
+}
+
+.cont1{
+    background-color:darkorange
+}
+
+.cont2{
+    background-color:darkcyan
+}
+
+.cont3{
+    background-color:darkslategrey
+}
+
+.btn{
+    width: 60%;
+    height: 10%;
+    background-color: white;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+
+.car{
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    padding: 2px;
+}
