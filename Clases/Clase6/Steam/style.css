@@ -1,0 +1,84 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(32, 13, 68);
+}
+
+.tex-nav{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+    
+
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgrande{
+ width: 60%;
+ height: 80%;
+ margin:5px;
+}
+
+.imgchicas{
+    display: flex;
+    width: 70;
+    height: 20%;
+}
+
+.container-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imgsec{
+    width: 12%;
+    margin: 1pt;
+   
+}
+
+.imgmedia{
+    width: auto;
+}
+
+h1{
+    color: white;
+    align-self: flex-start;
+}
+
+p{
+    color: gray;
+}
+
+.chub{
+    width: 15rem;
+    height: 2rem;
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 19px;
+    font-weight: bold;
+    font-size: 1.02rem;
+    cursor: pointer;
+    align-content: flex-end;
+}

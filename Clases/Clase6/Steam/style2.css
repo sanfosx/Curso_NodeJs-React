@@ -1,0 +1,32 @@
+main{
+    display: flex;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    width: 60%;
+}
+
+.right{
+    width: 30%;
+}
+.imgrande{
+    margin: 2px;
+}
+
+.imgchicas{
+    display: flex;
+    margin: 2px;
+}
+.imgsec{
+    width: 20%;
+    margin-right: 2px;
+}
+
+.imgmedia{
+    width: 100%;
+}

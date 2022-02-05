@@ -1,0 +1,111 @@
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color:  #293b57;
+    width: 60%;
+    height: 50%;
+    
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    margin-left: 1rem;
+}
+p{
+    color: gray;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+.btncomu{
+    width: 10rem;
+    font-size: 1rem;
+    margin: 0.6rem;
+}
+.btn{
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+    border:none;
+    border-radius: 2px;
+    margin-right: 0.3rem;
+}
+
+.container{
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+.left{
+    width: 60%;
+    margin: 0.5rem;
+}
+
+.right{
+    width: 40%;
+    margin: 0.5rem;
+}
+
+.imgrande{
+    width: 100%;
+    height: 85%;
+}
+
+.imgmedia{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 1rem;
+
+}
+
+.imgchicas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+
+.imgsec{
+    width: 20%;
+    margin-right: 3px;
+   
+}
+
+.descrip{
+    margin: 0;
+    color: white;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.nomargin{
+    margin: 0;
+    margin-bottom: 00.3rem;
+}
+
+.conmargin{
+    margin-bottom: 1rem;
+    margin-left: 0;
+}
+
+.container-btns{
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+.texti{
+    margin-left: 0;
+}
