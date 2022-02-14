@@ -1,0 +1,85 @@
+main{
+    display: flex;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width:auto;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.imagen{
+    
+}
+.imagenredo{
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    border-color: red;
+    padding: 2px;
+    border-radius: 99%;
+    margin: 1rem;
+    align-self: start;
+
+    
+}
+
+.icondot{
+    width: 15px;
+    height: 10px;
+    
+}
+hr{
+    background-color:rgb(252, 250, 250);
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+    
+.iconos{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.alignicon{
+    display: flex;
+    height: 50px;
+    
+    width:auto;
+    justify-content: space-between;
+    
+   
+}
+.dd{
+   align-self: flex-end;
+}
+
+.sendtext{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width:auto;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    color: dodgerblue;
+}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+html {
+    background-color: white;
+  }
+  
+  h1, h2, h3 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+  }
+  
+  p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .navbar {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 2.75rem;
+  }
+
+  .navbar img {
+    padding: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .navbar ul {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 3.375rem;
+    background-color: #0000EC;
+  }
+  
+  .navbar ul li {
+    width: 100vw;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar ul li a {
+    padding-left: 1rem;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    list-style: none;
+  }
+  
+  .navbar .activar-menu {
+    position: relative;
+    height: 1.5rem;
+  }
+  
+  .navbar .activar-menu input {
+    padding: 1rem;
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    z-index: 4;
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: 0;
+  }
+  
+  .navbar .activar-menu input:checked ~ ul {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .navbar .activar-menu input:checked ~ .fa-bars {
+    opacity: 0;
+  }
+  
+  .navbar .activar-menu input:checked ~ .fa-times {
+    opacity: 1;
+  }
+  
+  .navbar .activar-menu .fas {
+    padding: 1rem;
+    position: absolute;
+    right: 0px;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .navbar .activar-menu .fa-bars {
+    z-index: 3;
+  }
+  
+  .navbar .activar-menu .fa-times {
+    z-index: 2;
+    opacity: 0;
+  }

@@ -1,0 +1,46 @@
+.inicio{
+display: flex;
+align-items: flex-start;
+}
+
+.logo-icon{
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+}
+
+
+.logo-txt{
+
+    width: 400px;
+    height: 80px;
+    
+}
+
+.inicio p{
+    margin: 1rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.princ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-pc{
+    width: 50%;
+    height: 50%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}

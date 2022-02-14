@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 2.75rem;
+}
+
+.nav-titulo {
+    display: flex;
+    padding: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav-titulo p {
+    margin-left: 0.5rem;
+}
+
+.view-menu {
+    position: relative;
+    height: 1.5rem;
+}
+
+.view-menu .menu {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 3.375rem;
+    background-color: #0000EC;
+}
+
+.view-menu ul li {
+    width: 100vw;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+  }
