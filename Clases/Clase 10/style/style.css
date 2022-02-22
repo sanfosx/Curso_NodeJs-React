@@ -1,0 +1,116 @@
+body {
+  background-color: #657786;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 30%;
+  background-color: white;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 17px;
+}
+
+main .header-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+main .header-card .fa-twitter {
+  color: #1DA1F2;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+main .header-card .fa-xmark {
+  font-size: 1.2rem;
+}
+
+main .create-area h1 {
+  font-size: 1.5rem;
+}
+
+main .create-area a {
+  color: #1DA1F2;
+}
+
+main .create-area form .campo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+}
+
+main .create-area form .campo input, main .create-area form .campo select {
+  border: 2pt solid gainsboro;
+  border-radius: 6px;
+}
+
+main .create-area form .campo input:focus, main .create-area form .campo select:focus {
+  border-color: #1DA1F2;
+  outline: none;
+}
+
+main .create-area form .select-campos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .create-area form .select-campos .campo {
+  width: 100%;
+  margin-left: 0.5rem;
+}
+
+main .create-area form .select-campos .campo:first-child {
+  width: 140%;
+}
+
+main .create-area form .fenac {
+  margin-top: 1rem;
+}
+
+main .create-area form .fenac p {
+  margin: 0;
+}
+
+main .create-area .btn {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 17px;
+}
+/*# sourceMappingURL=style.css.map */

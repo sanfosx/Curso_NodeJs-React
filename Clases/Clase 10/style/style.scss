@@ -1,0 +1,105 @@
+$blue-twitter:#1DA1F2;
+$dark-gray-twitter:#657786;
+
+body {
+    background-color: $dark-gray-twitter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    width: 30%;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+
+    .header-card {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+
+        .fa-twitter {
+            color: $blue-twitter;
+            margin: 0;
+            padding: 0;
+            font-size: 2rem;
+        }
+
+        .fa-xmark {
+            font-size: 1.2rem;
+        }
+    }
+
+    .create-area {
+        h1 {
+
+            font-size: 1.5rem;
+        }
+
+        a {
+            
+            color: $blue-twitter;
+         
+        }
+
+        form {
+            .campo {
+                display: flex;
+                flex-direction: column;
+                margin: 1rem;
+
+                input, select{
+                    border: 2pt solid gainsboro;
+                    border-radius: 6px;
+
+                    &:focus{
+                        border-color: $blue-twitter;
+                        outline: none;
+                    }
+                }
+
+            }
+
+            .select-campos {
+                width: 100%;
+
+                display: flex;
+                justify-content: space-between;
+
+                .campo {
+                    width: 100%;
+                    margin-left: 0.5rem;
+
+                    &:first-child {
+                        width: 140%;
+                    }
+                }
+
+
+            }
+
+            .fenac{
+                margin-top: 1rem;
+
+                p{
+                    margin: 0;
+                }
+            }
+        }
+
+        .btn{
+            width: 100%;
+            font-size: 1rem;
+            padding: 0.5rem;
+            border: none;
+            color: white;
+            background-color: black;
+            border-radius: 17px;
+        }
+    }
+}

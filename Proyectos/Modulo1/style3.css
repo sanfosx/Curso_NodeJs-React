@@ -3,9 +3,10 @@
   padding: 0;
 }
 
- p{
-   color: black;
- }
+p {
+  color: black;
+}
+
 html {
   background-color: white;
 }
@@ -13,6 +14,10 @@ html {
 main {
   display: flex;
   flex-direction: column;
+}
+
+.menu-desktop {
+  display: none;
 }
 
 .titulo {
@@ -183,6 +188,10 @@ article p {
   text-align: center;
 }
 
+.secc2d {
+  display: none;
+}
+
 .redon {
   display: flex;
   flex-direction: column;
@@ -211,6 +220,7 @@ article p {
   text-align: center;
 }
 
+
 .seccion3 {
   display: flex;
   padding: 1rem;
@@ -220,7 +230,14 @@ article p {
   background-color: #5B5656;
 }
 
+.seccion3 img {
+  display: none;
+}
 
+.container-btn {
+  display: flex;
+  flex-direction: column;
+}
 
 .seccion3 button {
   width: 200px;
@@ -249,6 +266,10 @@ article p {
   color: #FC4850;
 }
 
+.container4{
+  display: flex;
+  flex-direction: column;
+}
 .seccion4 article {
   display: flex;
   flex-direction: row;
@@ -301,7 +322,7 @@ article p {
   color: #FFFFFF;
 }
 
-.seccion5 button{
+.seccion5 button {
   width: 200px;
   border: none;
   margin: 2rem;
@@ -311,7 +332,7 @@ article p {
   color: #FC4850;
 }
 
-footer{
+footer {
   background-color: #34495E;
   padding: 0.5rem;
   display: flex;
@@ -319,11 +340,194 @@ footer{
   align-items: center;
 }
 
-footer p{
-font-family: K2D;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-text-align: center;
-color: #FFFFFF;
+footer p {
+  font-family: K2D;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 721px) {
+
+  .activar-menu {
+    display: none;
+  }
+
+  .titulo p {
+    font-size: 36px;
+    margin-top: 0;
+  }
+
+  .navbar {
+
+    height: 3.75rem;
+  }
+
+  .menu-desktop {
+    display: flex;
+
+  }
+
+  .menu-desktop a {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-family: K2D;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    text-decoration: none;
+    color: #686868;
+
+  }
+
+  .navbar img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .navbar p {
+
+    font-size: 36px;
+  }
+
+  .menu-desktop button {
+    margin-top: 0.7rem;
+    margin-right: 1rem;
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 15px;
+
+    background-color: #FC4850;
+    color: white;
+  }
+
+  .seccion1 article {
+    display: flex;
+    flex-direction: row-reverse;
+
+
+  }
+
+  .seccion1 article img {
+    width: 300px;
+    height: 300px;
+    padding: 100px;
+  }
+
+  .seccion1 article div {
+    padding-right: 450px;
+
+  }
+
+  .seccion1 article h2 {
+    width: 338.27px;
+    height: 91.84px;
+
+    font-family: K2D;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 94px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+
+  .seccion1 article p {
+
+    left: 132.2px;
+    top: 353.84px;
+    font-family: K2D;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: left;
+
+  }
+
+
+  .secc2 {
+    display: none;
+  }
+
+
+  .seccion2 article {
+    align-self: flex-start;
+  }
+
+  .seccion2 article h2 {
+    font-weight: bold;
+    margin-left: 2.5rem;
+    font-size: 72px;
+    align-self: flex-start;
+  }
+
+
+  .secc2d {
+    width: 100%;
+    margin-left: 5rem;
+    display: inline;
+    color: black;
+    font-family: K2D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: left;
+
+  }
+
+
+  .seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    width: 110%;
+    padding-right: 10rem;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    justify-content: space-around
+  }
+
+
+  .seccion3 {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0;
+
+  }
+
+  .seccion3 img {
+    display: inline;
+    width: 360px;
+    height: 615px;
+    padding-top: 8rem;
+    margin-right: 5rem;
+  }
+
+  .seccion3 h2 {
+    font-weight: bold;
+    font-size: 72px;
+    justify-self: right;
+  }
+
+  .seccion3 p{
+    font-size: 36px;
+    margin-left: 3rem;
+    align-self: flex-start;
+  }
+
+  .container-btn{
+    margin-left: 2.5rem;
+    padding-left: 0;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+
+
 }
