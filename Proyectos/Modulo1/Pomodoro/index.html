@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Practica</title>
+    <title>Pomodor Web</title>
+
+    <!--icon-->
+    <link rel="shortcut icon" href="./img/pomodoro.ico" />
+
     <!--Stylesheet-->
-    <link rel="stylesheet" href="./style3.css">
+    <link rel="stylesheet" href="./style.css">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -23,12 +27,12 @@
 <body>
     <main>
         <header>
-            <nav class="navbar">
+            <nav class="navbar" id="inicio">
                 <div class="titulo">
                     <img src="img/pomodoro.png" alt="Logo pomodoro">
                     <p>Pomodoro</p>
                 </div>
-                <!--menu hamburguesa-->
+                <!--menu mobile-->
                 <div class="activar-menu">
                     <input type="checkbox">
                     <!--barras-->
@@ -37,19 +41,18 @@
                     <i class="fas fa-times" aria-hidden="true"></i>
                     <!--listas-->
                     <ul class="menu">
-                        <li><a href="#seccion2">Beneficios</a></li>
-                        <li><a href="#seccion3">Como funciona</a></li>
-                        <li><a href="#seccion4">Testimonios</a></li>
+                        <li><a href="#Beneficios">Beneficios</a></li>
+                        <li><a href="#Como funciona">Como funciona</a></li>
+                        <li><a href="#Testimonios">Testimonios</a></li>
                         <li><a href="#seccion5">USAR</a></li>
                     </ul>
                 </div>
-
+                <!--menu desktop-->
                 <div class="menu-desktop">
-                    <a href="#seccion2">Beneficios</a>
-                    <a href="#seccion3">Como funciona</a>
-                    <a href="#seccion4">Testimonios</a>
+                    <a href="#Beneficios">Beneficios</a>
+                    <a href="#Como funciona">Como funciona</a>
+                    <a href="#Testimonios">Testimonios</a>
                     <button>USAR</button>
-
                 </div>
             </nav>
         </header>
@@ -65,40 +68,40 @@
             </article>
         </section>
 
-        <section class="seccion2">
+        <section class="seccion2" id="Beneficios">
             <article>
                 <h2><strong> La mejor técnica</strong></h2>
-                <p class="secc2">Cientificamente la técnica</p>
-                <p class="secc2">pomodoro se puede aplicar</p>
-                <p class="secc2">a virtualmente cualquier</p>
-                <p class="secc2">actividad.</p>
+                <p class="secc2"><strong>Cientificamente la técnica</strong></p>
+                <p class="secc2"><strong> pomodoro se puede aplicar</strong></p>
+                <p class="secc2"><strong> a virtualmente cualquier</strong></p>
+                <p class="secc2"><strong> actividad.</strong></p>
 
-                <p class="secc2d"> <strong>Cientificamente, la técnica pomodoro se puede aplicar a</strong></p>
-                <p class="secc2d"><strong>virtualmente cualquier cosa</strong></p>
+                <p class="secc2d"> <strong>Cientificamente, la técnica pomodoro se puede aplicar a virtualmente
+                        cualquier cosa</strong></p>
+                <p class="secc2d"><strong></strong></p>
 
             </article>
             <div class="container">
                 <article class="redon">
-                    <p>Mejor manejo</p>
-                    <p>del tiempo</p>
+                    <p>Mejor manejo del tiempo</p>
+
                 </article>
 
                 <article class="redon">
-                    <p>Mas conocimiento</p>
-                    <p>sobre nuestros</p>
-                    <p>limites</p>
+                    <p>Mas conocimiento sobre nuestros limites</p>
+
                 </article>
 
                 <article class="redon">
-                    <p>Mayor</p>
-                    <p>bienestar</p>
+                    <p>Mayor Bienestar</p>
+                    <p></p>
                 </article>
 
             </div>
         </section>
 
-        <section class="seccion3">
-            <div class="container-art">
+        <section class="seccion3" id="Como funciona">
+            <div class="container3">
                 <article>
                     <h2>Es sencillo</h2>
                     <p>Trabaja por 25 minutos</p>
@@ -124,7 +127,7 @@
 
         </section>
 
-        <section class="seccion4">
+        <section class="seccion4" id="Testimonios">
             <h2>Testimonios</h2>
 
             <div class="container4">
@@ -132,45 +135,45 @@
                     <img src="./img/persona1.jpg" alt="imagen persona" class="img-redon">
                     <div>
                         <p>"Gracias a esto, no me</p>
-                        <p>desconcentro mas</p>
-                        <p class="tex-color">- Maria Clara</p>
+                        <p>desconcentro mas"</p>
+                        <p class="tex-color">- Pedro Fausto</p>
                     </div>
                 </article>
 
                 <article>
                     <img src="./img/persona-2.jpg" alt="imagen persona" class="img-redon">
                     <div>
-                        <p>"Gracias a esto, no me</p>
-                        <p>desconcentro mas</p>
-                        <p class="tex-color">- Maria Clara</p>
+                        <p>"No de nuevo decia,</p>
+                        <p>no de nuevo"</p>
+                        <p class="tex-color">- Marta Rey</p>
                     </div>
                 </article>
 
                 <article>
-                    <img src="./img/persona1.jpg" alt="imagen persona" class="img-redon">
+                    <img src="./img/persona-3.jpg" alt="imagen persona" class="img-redon">
                     <div>
-                        <p>"Gracias a esto, no me</p>
-                        <p>desconcentro mas</p>
-                        <p class="tex-color">- Maria Clara</p>
+                        <p>"Gracias a esto, no </p>
+                        <p>trabajo mas"</p>
+                        <p class="tex-color">- Maria Ponce</p>
                     </div>
                 </article>
             </div>
         </section>
 
         <section class="seccion5">
-            
-                <p class="sec-mob">¡Probalo vos</p>
-                <p class="sec-mob"> hoy mismo!</p>
-                <p class="sec-desktop">¡Probalo vos hoy mismo!</p>
-           
+
+            <p class="sec-mob">¡Probalo vos</p>
+            <p class="sec-mob"> hoy mismo!</p>
+            <p class="sec-desktop">¡Probalo vos hoy mismo!</p>
+
 
             <button class="btn-contac">Contactanos</button>
         </section>
 
         <footer>
             <p class="sec-mob">@Copirights</p>
-            <p class="sec-mob">Pomodoro SRL</p>
-            <p class="sec-desktop">@Copirights Pomodoro SRL</p>
+            <p class="sec-mob"><a href="#inicio"> Pomodoro SRL</a></p>
+            <p class="sec-desktop">@Copirights <a href=""> Pomodoro SRL</a></p>
         </footer>
     </main>
 </body>
