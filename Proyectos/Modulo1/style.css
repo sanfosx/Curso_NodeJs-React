@@ -61,6 +61,11 @@ main {
     height: 1.7rem;
 }
 
+.navbar img:hover {
+    transform: rotate(90deg);
+    cursor:alias;
+}
+
 .navbar ul {
     display: none;
     position: absolute;
@@ -403,10 +408,10 @@ footer p {
         height: 2.8rem;
     }
 
-    .navbar img:hover {
+    /*.navbar img:hover {
         transform: rotate(90deg);
         cursor:alias;
-    }
+    }*/
 
     .navbar .titulo p {
         display: inline-block;
