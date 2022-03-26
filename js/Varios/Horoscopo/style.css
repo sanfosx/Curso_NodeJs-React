@@ -1,0 +1,32 @@
+
+body {
+
+    text-align: center;
+    align-items: center;
+    background-color: rgb(11, 78, 78);
+}
+
+.titulo {
+   font-size: 5rem;
+   color: white;
+}
+
+form input {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.animar{
+    color: white;
+}
+
+
+p{
+    position: fixed ; right:15px; bottom: 5px;
+}

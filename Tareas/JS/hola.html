@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <input id="myId" type="text"></input>
+    <button onclick=btn1()>Alert</button>
+    <button onclick=btn2()>Confirm</button>
+    <button onclick=btn3()>Prompt</button>
+
+
+    <script>
+        const btn1 = algo => {
+            alert("Dialog alert ", "myId") // only "text 1" will be displayed
+        }
+
+        const btn2 = algo =>{
+            let remove = confirm("Remove all data?");
+            let message = remove ? "Deleting Data" : "Cancelled"
+        }
+        const btn3= algo =>{
+            let name = window.prompt("Dialog prompt?", "John Doe");
+            name = name ? name : "anonymous"
+            let age = prompt("Hello " + name + " how old are you?");
+            alert(name + " is " + age + " years old");
+
+        }
+
+    </script>
+</body>
+
+</html>
