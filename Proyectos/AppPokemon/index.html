@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icon-->
+    <link rel="shortcut icon" href="./img/pa2.png" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>PokeApp</title>
+</head>
+
+<body onload="cargarTodos()">
+    <header>
+        <nav class="navbar" id="inicio">
+            <!--menu desktop-->
+            <div class="menu-desktop">
+                <button>Jugar</button>
+                <a href="#favoritos">Favoritos</a>
+                <a href="#pokedex">Pokedex</a>
+                
+                <a><i class="fa-solid fa-gear" onclick="borrarStorage()"></i></a>
+            </div>
+            <div class="mydiv">
+                <img src="img/pokeapp2.png" alt="Logo pokeapp">
+                <p>
+                    <marquee direction="left" id="saludarUsuario">BIENVENIDO!!! Poke app, una simple pagina hecha con javascript, html y
+                        pokeAppi.</marquee>
+                </p>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cabecera">
+
+            <img src=""  id="img">
+
+
+        </section>
+
+        <section class="favoritos" id="favoritos">
+
+            <img src="./img/favoritos.png" alt="sd" id="img">
+
+            <section class="container" id="container">
+                <Button id="btn" onclick="verAlert()">+</Button>
+                
+            </section>
+        </section>
+
+        <section class="pokedex">
+
+            <img src="./img/pokedex.png" alt="sd" id="img">
+
+            <section class="container" id="container">
+                <Button id="btn" onclick="verAlert()">+</Button>
+                <article class="elementos">
+                    <strong class="borrar" id=""><i class="fa-solid fa-circle-xmark"></i></strong>
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/19.png"
+                        alt="perro">
+                    <p class="texto">nombre</p>
+
+                    <p class="tipo">tipo</p>
+                </article>
+            </section>
+        </section>
+
+        <section class="jugar">
+
+            <img src="./img/jugar.png" alt="sd" id="img">
+
+            <section class="container" id="container">
+                <Button id="btn" onclick="verAlert()">+</Button>
+                <article class="elementos-jugar flip-2-ver-left-2">
+                    <strong class="borrar" id=""><i class="fa-solid fa-circle-xmark"></i></strong>
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/19.png"
+                        alt="perro">
+                    <p class="texto">nombre</p>
+
+                    <p class="tipo">tipo</p>
+                </article>
+            </section>
+        </section>
+
+        <section class="jugar">
+
+            <img src="./img/jugar.png" alt="sd" id="img">
+
+            <section class="container" id="container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/19.png"
+                                alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>John Doe</h1>
+                            <p class="tipo">tipo</p>
+                            <p>We love that guy</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                </article>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

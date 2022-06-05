@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icon-->
+    <link rel="shortcut icon" href="./img/pa2.png" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>PokeApp</title>
+</head>
+
+<body onload="cargarTodos()">
+    <header>
+        <nav class="navbar" id="inicio">
+            <!--menu desktop-->
+            <div class="menu-desktop">
+                <button>Jugar</button>
+                <a href="#favoritos">Favoritos</a>
+                <a href="#pokedex">Pokedex</a>
+
+                <a><i class="fa-solid fa-gear" onclick="borrarStorage()"></i></a>
+            </div>
+            <div class="mydiv">
+                <img src="img/pokeapp2.png" alt="Logo pokeapp">
+                <p>
+                    <marquee direction="left" id="saludarUsuario">BIENVENIDO!!! Poke app, una simple pagina hecha con
+                        javascript, html y
+                        pokeAppi.</marquee>
+                </p>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cabecera" id="cabecera">
+
+            <div class="cabecera-img">
+                <p id="titulo-id">#11</p>
+                <img src="" id="img">
+            </div>
+            <div class="cabecera-content">
+                <h1 id="titulo-name">Pikachu</h1>
+                <p>Edad <strong>10 years</strong></p>
+                <p>Peso <strong>14 kg</strong></p>
+                <p>Altura <strong>120 cms</strong></p>
+                <p>Habilidad <strong>electrico</strong></p>
+                <p id="tipo-tipo">Tipo</p>
+                <div class="cabecera-tipo">
+                    <p class="tipo" id="titulo-tipo1">water</p>
+                    <p class="tipo" id="titulo-tipo2">electric</p>
+                </div>
+            </div>
+
+        </section>
+        <div class="fav-container" id="favoritos">
+            <section class="favoritos">
+
+                <img src="./img/favoritos.png" alt="sd" id="img">
+
+                <section class="container" id="container">
+                    <Button class="btn-alert" id="btn" onclick="verAlert()">+</Button>
+                    <a href="javascript:prevPage()" id="btn_prev2">Prev</a>&nbsp;
+                    <a href="javascript:nextPage()" id="btn_next2">Next</a><br>
+                    page: <span id="page2"></span>
+
+                </section>
+
+            </section>
+        </div>
+
+        <section class="favoritos">
+
+            <img src="./img/pokedex.png" alt="sd" id="img">
+            <div class="pokedex">
+                <section class="container-pokedex" id="container">
+                    <form autocomplete="off" action="/action_page.php">
+                        <div class="autocompletado" style="width:300px;">
+                            <input id="marcas" type="text" name="Marcas" placeholder="Buscar Pokemon">
+                        </div>
+                        <input type="submit">
+                    </form>
+                    <button class="btn-buscar" onclick="verTodos()">Ver todos</button>
+                </section>
+                <section>
+                    <a href="javascript:prevPage()" id="btn_prev">Prev</a>&nbsp;
+                    <a href="javascript:nextPage()" id="btn_next">Next</a><br>
+                    <div id="TableList" class="container"></div>
+                    page: <span id="page"></span>
+                </section>
+            </div>
+        </section>
+
+        <section class="jugar">
+
+            <img src="./img/jugar.png" alt="sd" id="img">
+
+            <section class="container" id="container">
+
+                <article class="elementos-jugar flip-2-ver-left-2">
+
+                    <img src="./img/quien_es.png" alt="perro">
+                    <p class="texto">nombre</p>
+
+                    <p class="tipo">tipo</p>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+       
+        <p class="sec-desktop">@Copirights <a href=""> PokeApp  by SanFosX</a></p>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

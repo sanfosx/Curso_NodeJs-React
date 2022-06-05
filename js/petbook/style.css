@@ -1,0 +1,76 @@
+body {
+    width: 40vw;
+    margin: 0 auto;
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+    color: #2e719e;
+    margin-bottom: 6vh;
+}
+
+img {
+
+    border-radius: 99%;
+    width: 100px;
+    height: 100px;
+}
+
+section {
+    margin-top: 4vh;
+}
+
+
+.barra-accion {
+    margin-left: 3rem;
+    width: 500px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+article,
+.post {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.eliminar-btn{
+    visibility:hidden;
+    float: left;
+}
+article:hover .eliminar-btn{
+visibility: visible;
+
+}
+
+.texto {
+    width: 100%;
+}
+
+hr {
+    
+    width: 40vw;
+}
+
+.add-comment-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-comment-section input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.add-comment-section button {
+    margin-bottom: 2rem;
+    background-color: #2e719e;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}

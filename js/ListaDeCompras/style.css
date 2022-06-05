@@ -1,0 +1,55 @@
+body {
+  font-family: "Indie Flower", cursive;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+
+  background-image: url("./img/fondo.jpg");
+  background-repeat: repeat;
+}
+
+.cuaderno {
+  border: 2pt solid black;
+  border-radius: 14px;
+  padding: 1rem 2rem;
+  background-color: whitesmoke;
+  box-shadow: 13px 11px 10px -7px rgba(0, 0, 0, 0.75);
+  transform: rotate(-3deg);
+  min-height: 40vh;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+input#inputAgregar {
+  width: 100%;
+  padding: 0.5rem 0 0.5rem 0.25rem;
+  border-radius: 7px;
+  border: 2pt solid gray;
+}
+
+input#inputAgregar:focus {
+  transform: scale(1.07);
+  outline: none;
+  border-color: orangered;
+  box-shadow: 13px 11px 10px -7px rgba(0, 0, 0, 0.45);
+}
+
+#lista {
+  list-style: georgian;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item > .borrar {
+  color: crimson;
+  cursor: pointer;
+}
